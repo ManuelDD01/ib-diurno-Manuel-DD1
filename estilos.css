@@ -1,0 +1,85 @@
+/*
+selectores{estilos}
+------------
+etiqueta{}
+.clase{}
+#id{    
+}*/
+
+body {
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+    /*limintar el tamaño*/
+    width: 400px;
+    /*centrado de contenido automatico*/
+    margin: auto;
+}
+
+
+.cabecera {
+    /* border: 2px solid blue; */
+    display: flex;
+    gap: 5px;
+    /* justify-content: space-between; */
+
+}
+
+a{
+    /* border: 1px solid red; */
+    color: #000000;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+a:hover{
+    color: #ff0000;
+    background: #000000;
+}
+
+
+#perfil{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   /* justify-content: center; */
+   
+}
+
+img{
+    border: #42971b;
+    width: 70px;
+    border-radius: 50%;
+    background: rgb(83, 190, 56);
+}
+
+#perfil span{
+    background: rgb(216, 255, 206);
+    padding: 7px 15px;
+    border-radius: 20px;
+    border: 1px solid rgb(2, 90, 20);
+    margin-left: 15px;
+       
+}
+p span{
+     
+    color: #f0bd17;
+
+}
+
+.cuerpo{
+
+margin-top: 100px;  
+
+}
+button {
+    padding: 5px;
+    border-radius: 1rem;
+    border-color: rgb(218, 218, 218);
+}
+
+
+button;:hover {
+background: black;
+color: white;
+}
